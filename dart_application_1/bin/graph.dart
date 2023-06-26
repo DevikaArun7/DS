@@ -26,7 +26,7 @@
 
 //   void display() {
 //     for (var x in map.keys) {
-//       stdout.write('$x :');
+//       stdout.write('$x :');     
 //       for (var y in map[x]!) {
 //         stdout.write(' $y');
 //       }
@@ -87,23 +87,23 @@
 //   }
 // }
  
-// void main(List<String> arguments) {
-//   Graph graph = Graph();
-//   graph.insert(3, 5, true);
-//   graph.insert(3, 4, false);
-//   graph.insert(5, 4, true);
-//   graph.insert(5, 6, true);
+void main(List<String> arguments) {
+  Graph graph = Graph();
+  graph.insert(3, 5, true);
+  graph.insert(3, 4, false);
+  graph.insert(5, 4, true);
+  graph.insert(5, 6, true);
 
-//   graph.display();
+  graph.display();
 
-//   stdout.write('DFS Traversal: ');
-//   graph.dfs(3);
-//   print('');
+  stdout.write('DFS Traversal: ');
+  graph.dfs(3);
+  print('');
 
-//   stdout.write('BFS Traversal: ');
-//   graph.bfs(5);
-//   print('');
-// }
+  stdout.write('BFS Traversal: ');
+  graph.bfs(5);
+  print('');
+}
 
 
 
